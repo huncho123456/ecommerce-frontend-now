@@ -533,10 +533,10 @@ input {
             Header css
 ---------------------------------*/
 header {
-  background-color: #252525;
+  background-color: black;
 }
 header .header-top {
-  border-bottom: 1px solid #454545;
+  border-bottom: 1px solid black;
 }
 header .header-top .welcome-text {
   display: -webkit-box;
@@ -708,6 +708,7 @@ header .header-bottom .header-actions .header-action-btn:hover .cart-amount {
 header .main-menu {
   display: -webkit-box;
   display: -ms-flexbox;
+  position: relative;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -715,6 +716,7 @@ header .main-menu {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  border-radius: 20px;
   background-color: #266bf9;
 }
 header .main-menu ul {
@@ -769,6 +771,7 @@ header .main-menu ul li.dropdown ul.sub-menu {
   min-width: 250px;
   left: auto !important;
   background: #fff;
+  border-radius: 20px;
   display: block;
   -o-transition: -o-transform 0.3s, opacity 0.3s;
   -ms-transition: -ms-transform 0.3s, opacity 0.3s;
@@ -813,6 +816,7 @@ header .main-menu ul li.dropdown:hover .sub-menu {
 header .main-menu ul li.dropdown:hover .mega-menu {
   opacity: 1;
   visibility: visible;
+  border-radius: 20px;
   transform: rotateX(0deg);
   -o-transform: rotateX(0deg);
   -moz-transform: rotateX(0deg);
